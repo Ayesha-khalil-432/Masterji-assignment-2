@@ -1,0 +1,28 @@
+.main_div{
+    height: max-content;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.wrapper{
+    color: #373649;
+    width: 48%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 15px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.titleInfo{
+    font-size: 20px;
+    font-weight: 800;
+}

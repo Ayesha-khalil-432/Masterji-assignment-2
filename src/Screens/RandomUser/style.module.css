@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://c1.wallpaperflare.com/preview/860/92/862/green-plant-nature-dark.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.modal {
+    background-color: #b6b3f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    border: 10px solid #fff;
+}
+
+.header{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.heading{
+    font-size: large;
+}
+
+.gender{
+    background-color: black;
+    color: #fff;
+    height: max-content;
+    padding: 2px;
+    border-radius: 3px;
+    width: max-content;
+    font-size: small;
+}
+
+.profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile_info{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-self: start;
+}
+
+.profile{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    font-size: larger;
+}
+
+.location_call{
+    width: 90%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.call_location{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
