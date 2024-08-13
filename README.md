@@ -11,8 +11,8 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Ayesha-khalil-432/Masterji-assignment-2.git
+    cd Masterji-assignment-2
     ```
 
 2. **Install the required dependencies:**
