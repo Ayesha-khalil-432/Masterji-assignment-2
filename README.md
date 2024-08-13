@@ -91,9 +91,9 @@ The application uses the following API endpoints from FreeAPI:
 
 Include screenshots of each component and how the application looks.
 
-- **Random User Profile**: ![Random User Profile Screenshot](path/to/random-user-screenshot.png)
-- **Random Jokes Tweet**: ![Random Jokes Tweet Screenshot](path/to/random-jokes-screenshot.png)
-- **Cats Listing**: ![Cats Listing Screenshot](path/to/cats-listing-screenshot.png)
+- **Random User Profile**: ![Random User Profile Screenshot](src/Screenshots/RandomUser.PNG)
+- **Random Jokes Tweet**: ![Random Jokes Tweet Screenshot](src/Screenshots/RandomJokes.PNG)
+- **Cats Listing**: ![Cats Listing Screenshot](src/Screenshots/CatsListing.PNG)
 
 ## Contributing
 
@@ -105,6 +105,3 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
