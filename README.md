@@ -4,6 +4,10 @@
 
 This project is an implementation of three components based on provided Figma designs using React. The application includes a random user profile, a random jokes tweet, and a cats listing, all fetched and displayed from different APIs. The components are designed to match the Figma specifications and include features such as loading states and pagination.
 
+## Live Application
+
+You can view the live application at: [https://masterji-assignment-2.vercel.app/random-user](https://masterji-assignment-2.vercel.app/random-user)
+
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -104,4 +108,3 @@ Contributions are welcome! Please follow these steps to contribute:
 3. Make your changes and commit (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
-
