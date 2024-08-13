@@ -1,13 +1,15 @@
 .nav {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navList {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    justify-content: center;
 }
 
 .navItem {
@@ -16,10 +18,26 @@
 
 .link {
     text-decoration: none;
-    color: black;
+    color: #333;
     font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .content {
     padding: 20px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 60px);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }

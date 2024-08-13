@@ -22,7 +22,7 @@ export const fetchRandomJoke = async () => {
   }
 };
 
-export const fetchCatsListing = async (page = 1, limit = 4) => {
+export const fetchCatsListing = async (page = 1, limit = 8) => {
   try {
     const response = await axios.get(`${BASE_URL}/cats`, {
       params: {

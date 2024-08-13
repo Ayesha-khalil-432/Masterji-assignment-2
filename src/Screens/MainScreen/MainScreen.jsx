@@ -1,5 +1,5 @@
-import { Link, Outlet } from 'react-router-dom';
-import styles from './style.module.css'; // Import the CSS module
+import { NavLink, Outlet } from 'react-router-dom';
+import styles from './style.module.css'; 
 
 function MainScreen() {
   return (
@@ -7,13 +7,34 @@ function MainScreen() {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <Link to="/random-user" className={styles.link}>Random User</Link>
+            <NavLink
+              to="/random-user"
+              className={({ isActive }) =>
+                isActive ? styles.activeLink : styles.link
+              }
+            >
+              Random User
+            </NavLink>
           </li>
           <li className={styles.navItem}>
-            <Link to="/random-jokes" className={styles.link}>Random Jokes</Link>
+            <NavLink
+              to="/random-jokes"
+              className={({ isActive }) =>
+                isActive ? styles.activeLink : styles.link
+              }
+            >
+              Random Jokes
+            </NavLink>
           </li>
           <li className={styles.navItem}>
-            <Link to="/cats-listing" className={styles.link}>Cats Listing</Link>
+            <NavLink
+              to="/cats-listing"
+              className={({ isActive }) =>
+                isActive ? styles.activeLink : styles.link
+              }
+            >
+              Cats Listing
+            </NavLink>
           </li>
         </ul>
       </nav>

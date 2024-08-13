@@ -1,14 +1,3 @@
-.container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url('https://c1.wallpaperflare.com/preview/860/92/862/green-plant-nature-dark.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 .modal {
     background-color: #b6b3f3;
     border-radius: 8px;
@@ -75,6 +64,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-block: 12px;
+    padding-block: 8px;
 }
 
 .call_location{
@@ -83,4 +74,9 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.chaiCode{
+    width: 100%;
+    text-align: right;
 }
